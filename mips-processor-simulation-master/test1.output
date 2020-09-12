@@ -1,0 +1,910 @@
+Current instruction: add	$3, $2, $1 
+	Program Counter
+PC: 0x00400000
+	Sign Extend
+Input: 0x1820
+Result: 0x1820
+	Control Unit
+Input opcode: 0x0
+regDst: 0x1
+jump: 0x0
+branch: 0x0
+memRead: 0x0
+memToReg: 0x0
+aluOp0: 0x0
+aluOp1: 0x1
+memWrite: 0x0
+aluSrc: 0x0
+regWrite: 0x1
+	Register File
+readRegister1: 0x2
+readData1: 0x000010e4
+readRegister2: 0x1
+readData2: 0xffffe910
+regWrite: 0x1
+	ALUControl Values
+ALUOp: 0x2
+Opcode: 0x20
+	MUX 5
+Input 1: 0xffffe910
+Input 2: 0xffffe910
+Control Value: 0x0
+Result: 0xffffe910
+	ALU 3
+Data 1: 0x    10e4
+Data 2: 0xffffe910
+Result: 0xfffff9f4
+Zero: 0x0
+	Data Memory
+Input address: 0xfffff9f4
+	MUX 1
+Input 1: 0x1
+Input 2: 0x1
+Control Value: 0x1
+Result: 0x3
+	MUX 4
+Input 1: 0xfffff9f4
+Input 2: 0xfffff9f4
+Control Value: 0x0
+Result: 0xfffff9f4
+	Register File
+writeRegister: 0x3
+writeData: 0xfffff9f4
+regWrite: 0x1
+	ALU 1
+Data 1: 0x  400000
+Data 2: 0x       4
+Result: 0x  400004
+Zero: 0x0
+	Sign Extend
+Input: 0x4266016
+Result: 0x17064064
+	Sign Extend
+Input: 0x6176
+Result: 0x24704
+	ALU 2
+Data 1: 0x  400004
+Data 2: 0x    6080
+Result: 0x  406084
+Zero: 0x0
+	MUX 2
+Input 1: 0x400004
+Input 2: 0x400004
+Control Value: 0x0
+Result: 0x400004
+	MUX 3
+Input 1: 0x400004
+Input 2: 0x400004
+Control Value: 0x0
+Result: 0x400004
+	Register File Content
+0:58eed051
+1:ffffe910
+2:000010e4
+3:fffff9f4
+4:e65e1e87
+5:0000ff85
+6:00000000
+7:00000000
+8:00000000
+9:00000000
+10:00000000
+11:00000000
+12:00000000
+13:00000000
+14:00000000
+15:00000000
+16:00000000
+17:00000000
+18:00000000
+19:00000000
+20:00000000
+21:00000000
+22:00000000
+23:00000000
+24:00000000
+25:00000000
+26:00000000
+27:00000000
+28:00000000
+29:00000000
+30:00000000
+31:00000000
+	Data Memory Content
+1000000c:c57b54ba
+10000010:e65e1e87
+10000014:1df23a4f
+10000018:b90037d6
+1000001c:63322818
+10000020:10916273
+10000024:9de6153f
+10000028:81fb7b82
+	Instruction Memory Content
+0x00411820
+0x20200ca9
+0x2044febc
+0x00603022
+0x0064382a
+0x0060402a
+0x00631820
+#######################################################
+Current instruction: addi $0, $1, 3241 
+	Program Counter
+PC: 0x00400004
+	Sign Extend
+Input: 0xca9
+Result: 0xca9
+	Control Unit
+Input opcode: 0x8
+regDst: 0x0
+jump: 0x0
+branch: 0x0
+memRead: 0x0
+memToReg: 0x0
+aluOp0: 0x0
+aluOp1: 0x0
+memWrite: 0x0
+aluSrc: 0x1
+regWrite: 0x1
+	Register File
+readRegister1: 0x1
+readData1: 0xffffe910
+readRegister2: 0x0
+readData2: 0x58eed051
+regWrite: 0x1
+	ALUControl Values
+ALUOp: 0x0
+Opcode: 0x29
+	MUX 5
+Input 1: 0x58eed051
+Input 2: 0x58eed051
+Control Value: 0x1
+Result: 0xca9
+	ALU 3
+Data 1: 0xffffe910
+Data 2: 0x     ca9
+Result: 0xfffff5b9
+Zero: 0x0
+	Data Memory
+Input address: 0xfffff5b9
+	MUX 1
+Input 1: 0x0
+Input 2: 0x0
+Control Value: 0x0
+Result: 0x0
+	MUX 4
+Input 1: 0xfffff5b9
+Input 2: 0xfffff5b9
+Control Value: 0x0
+Result: 0xfffff5b9
+	Register File
+writeRegister: 0x0
+writeData: 0xfffff5b9
+regWrite: 0x1
+	ALU 1
+Data 1: 0x  400004
+Data 2: 0x       4
+Result: 0x  400008
+Zero: 0x0
+	Sign Extend
+Input: 0x2100393
+Result: 0x8401572
+	Sign Extend
+Input: 0x3241
+Result: 0x12964
+	ALU 2
+Data 1: 0x  400008
+Data 2: 0x    32a4
+Result: 0x  4032ac
+Zero: 0x0
+	MUX 2
+Input 1: 0x400008
+Input 2: 0x400008
+Control Value: 0x0
+Result: 0x400008
+	MUX 3
+Input 1: 0x400008
+Input 2: 0x400008
+Control Value: 0x0
+Result: 0x400008
+	Register File Content
+0:fffff5b9
+1:ffffe910
+2:000010e4
+3:fffff9f4
+4:e65e1e87
+5:0000ff85
+6:00000000
+7:00000000
+8:00000000
+9:00000000
+10:00000000
+11:00000000
+12:00000000
+13:00000000
+14:00000000
+15:00000000
+16:00000000
+17:00000000
+18:00000000
+19:00000000
+20:00000000
+21:00000000
+22:00000000
+23:00000000
+24:00000000
+25:00000000
+26:00000000
+27:00000000
+28:00000000
+29:00000000
+30:00000000
+31:00000000
+	Data Memory Content
+1000000c:c57b54ba
+10000010:e65e1e87
+10000014:1df23a4f
+10000018:b90037d6
+1000001c:63322818
+10000020:10916273
+10000024:9de6153f
+10000028:81fb7b82
+	Instruction Memory Content
+0x00411820
+0x20200ca9
+0x2044febc
+0x00603022
+0x0064382a
+0x0060402a
+0x00631820
+#######################################################
+Current instruction: addi $4, $2, 0xfffffEBC 
+	Program Counter
+PC: 0x00400008
+	Sign Extend
+Input: 0xfebc
+Result: 0xfffffebc
+	Control Unit
+Input opcode: 0x8
+regDst: 0x0
+jump: 0x0
+branch: 0x0
+memRead: 0x0
+memToReg: 0x0
+aluOp0: 0x0
+aluOp1: 0x0
+memWrite: 0x0
+aluSrc: 0x1
+regWrite: 0x1
+	Register File
+readRegister1: 0x2
+readData1: 0x000010e4
+readRegister2: 0x4
+readData2: 0xe65e1e87
+regWrite: 0x1
+	ALUControl Values
+ALUOp: 0x0
+Opcode: 0x3c
+	MUX 5
+Input 1: 0xe65e1e87
+Input 2: 0xe65e1e87
+Control Value: 0x1
+Result: 0xfffffebc
+	ALU 3
+Data 1: 0x    10e4
+Data 2: 0xfffffebc
+Result: 0x     fa0
+Zero: 0x0
+	Data Memory
+Input address: 0xfa0
+	MUX 1
+Input 1: 0x4
+Input 2: 0x4
+Control Value: 0x0
+Result: 0x4
+	MUX 4
+Input 1: 0xfa0
+Input 2: 0xfa0
+Control Value: 0x0
+Result: 0xfa0
+	Register File
+writeRegister: 0x4
+writeData: 0x00000fa0
+regWrite: 0x1
+	ALU 1
+Data 1: 0x  400008
+Data 2: 0x       4
+Result: 0x  40000c
+Zero: 0x0
+	Sign Extend
+Input: 0x4521660
+Result: 0x18086640
+	Sign Extend
+Input: 0x4294966972
+Result: 0x4294966000
+	ALU 2
+Data 1: 0x  40000c
+Data 2: 0xfffffaf0
+Result: 0x  3ffafc
+Zero: 0x0
+	MUX 2
+Input 1: 0x40000c
+Input 2: 0x40000c
+Control Value: 0x0
+Result: 0x40000c
+	MUX 3
+Input 1: 0x40000c
+Input 2: 0x40000c
+Control Value: 0x0
+Result: 0x40000c
+	Register File Content
+0:fffff5b9
+1:ffffe910
+2:000010e4
+3:fffff9f4
+4:00000fa0
+5:0000ff85
+6:00000000
+7:00000000
+8:00000000
+9:00000000
+10:00000000
+11:00000000
+12:00000000
+13:00000000
+14:00000000
+15:00000000
+16:00000000
+17:00000000
+18:00000000
+19:00000000
+20:00000000
+21:00000000
+22:00000000
+23:00000000
+24:00000000
+25:00000000
+26:00000000
+27:00000000
+28:00000000
+29:00000000
+30:00000000
+31:00000000
+	Data Memory Content
+1000000c:c57b54ba
+10000010:e65e1e87
+10000014:1df23a4f
+10000018:b90037d6
+1000001c:63322818
+10000020:10916273
+10000024:9de6153f
+10000028:81fb7b82
+	Instruction Memory Content
+0x00411820
+0x20200ca9
+0x2044febc
+0x00603022
+0x0064382a
+0x0060402a
+0x00631820
+#######################################################
+Current instruction: sub	$6, $3, $0 
+	Program Counter
+PC: 0x0040000c
+	Sign Extend
+Input: 0x3022
+Result: 0x3022
+	Control Unit
+Input opcode: 0x0
+regDst: 0x1
+jump: 0x0
+branch: 0x0
+memRead: 0x0
+memToReg: 0x0
+aluOp0: 0x0
+aluOp1: 0x1
+memWrite: 0x0
+aluSrc: 0x0
+regWrite: 0x1
+	Register File
+readRegister1: 0x3
+readData1: 0xfffff9f4
+readRegister2: 0x0
+readData2: 0xfffff5b9
+regWrite: 0x1
+	ALUControl Values
+ALUOp: 0x2
+Opcode: 0x22
+	MUX 5
+Input 1: 0xfffff5b9
+Input 2: 0xfffff5b9
+Control Value: 0x0
+Result: 0xfffff5b9
+	ALU 3
+Data 1: 0xfffff9f4
+Data 2: 0xfffff5b9
+Result: 0x     43b
+Zero: 0x0
+	Data Memory
+Input address: 0x43b
+	MUX 1
+Input 1: 0x0
+Input 2: 0x0
+Control Value: 0x1
+Result: 0x6
+	MUX 4
+Input 1: 0x43b
+Input 2: 0x43b
+Control Value: 0x0
+Result: 0x43b
+	Register File
+writeRegister: 0x6
+writeData: 0x0000043b
+regWrite: 0x1
+	ALU 1
+Data 1: 0x  40000c
+Data 2: 0x       4
+Result: 0x  400010
+Zero: 0x0
+	Sign Extend
+Input: 0x6303778
+Result: 0x25215112
+	Sign Extend
+Input: 0x12322
+Result: 0x49288
+	ALU 2
+Data 1: 0x  400010
+Data 2: 0x    c088
+Result: 0x  40c098
+Zero: 0x0
+	MUX 2
+Input 1: 0x400010
+Input 2: 0x400010
+Control Value: 0x0
+Result: 0x400010
+	MUX 3
+Input 1: 0x400010
+Input 2: 0x400010
+Control Value: 0x0
+Result: 0x400010
+	Register File Content
+0:fffff5b9
+1:ffffe910
+2:000010e4
+3:fffff9f4
+4:00000fa0
+5:0000ff85
+6:0000043b
+7:00000000
+8:00000000
+9:00000000
+10:00000000
+11:00000000
+12:00000000
+13:00000000
+14:00000000
+15:00000000
+16:00000000
+17:00000000
+18:00000000
+19:00000000
+20:00000000
+21:00000000
+22:00000000
+23:00000000
+24:00000000
+25:00000000
+26:00000000
+27:00000000
+28:00000000
+29:00000000
+30:00000000
+31:00000000
+	Data Memory Content
+1000000c:c57b54ba
+10000010:e65e1e87
+10000014:1df23a4f
+10000018:b90037d6
+1000001c:63322818
+10000020:10916273
+10000024:9de6153f
+10000028:81fb7b82
+	Instruction Memory Content
+0x00411820
+0x20200ca9
+0x2044febc
+0x00603022
+0x0064382a
+0x0060402a
+0x00631820
+#######################################################
+Current instruction: slt	$7, $3, $4 
+	Program Counter
+PC: 0x00400010
+	Sign Extend
+Input: 0x382a
+Result: 0x382a
+	Control Unit
+Input opcode: 0x0
+regDst: 0x1
+jump: 0x0
+branch: 0x0
+memRead: 0x0
+memToReg: 0x0
+aluOp0: 0x0
+aluOp1: 0x1
+memWrite: 0x0
+aluSrc: 0x0
+regWrite: 0x1
+	Register File
+readRegister1: 0x3
+readData1: 0xfffff9f4
+readRegister2: 0x4
+readData2: 0x00000fa0
+regWrite: 0x1
+	ALUControl Values
+ALUOp: 0x2
+Opcode: 0x2a
+	MUX 5
+Input 1: 0xfa0
+Input 2: 0xfa0
+Control Value: 0x0
+Result: 0xfa0
+	ALU 3
+Data 1: 0xfffff9f4
+Data 2: 0x     fa0
+Result: 0x       1
+Zero: 0x0
+	Data Memory
+Input address: 0x1
+	MUX 1
+Input 1: 0x4
+Input 2: 0x4
+Control Value: 0x1
+Result: 0x7
+	MUX 4
+Input 1: 0x1
+Input 2: 0x1
+Control Value: 0x0
+Result: 0x1
+	Register File
+writeRegister: 0x7
+writeData: 0x00000001
+regWrite: 0x1
+	ALU 1
+Data 1: 0x  400010
+Data 2: 0x       4
+Result: 0x  400014
+Zero: 0x0
+	Sign Extend
+Input: 0x6567978
+Result: 0x26271912
+	Sign Extend
+Input: 0x14378
+Result: 0x57512
+	ALU 2
+Data 1: 0x  400014
+Data 2: 0x    e0a8
+Result: 0x  40e0bc
+Zero: 0x0
+	MUX 2
+Input 1: 0x400014
+Input 2: 0x400014
+Control Value: 0x0
+Result: 0x400014
+	MUX 3
+Input 1: 0x400014
+Input 2: 0x400014
+Control Value: 0x0
+Result: 0x400014
+	Register File Content
+0:fffff5b9
+1:ffffe910
+2:000010e4
+3:fffff9f4
+4:00000fa0
+5:0000ff85
+6:0000043b
+7:00000001
+8:00000000
+9:00000000
+10:00000000
+11:00000000
+12:00000000
+13:00000000
+14:00000000
+15:00000000
+16:00000000
+17:00000000
+18:00000000
+19:00000000
+20:00000000
+21:00000000
+22:00000000
+23:00000000
+24:00000000
+25:00000000
+26:00000000
+27:00000000
+28:00000000
+29:00000000
+30:00000000
+31:00000000
+	Data Memory Content
+1000000c:c57b54ba
+10000010:e65e1e87
+10000014:1df23a4f
+10000018:b90037d6
+1000001c:63322818
+10000020:10916273
+10000024:9de6153f
+10000028:81fb7b82
+	Instruction Memory Content
+0x00411820
+0x20200ca9
+0x2044febc
+0x00603022
+0x0064382a
+0x0060402a
+0x00631820
+#######################################################
+Current instruction: slt	$8, $3, $0 
+	Program Counter
+PC: 0x00400014
+	Sign Extend
+Input: 0x402a
+Result: 0x402a
+	Control Unit
+Input opcode: 0x0
+regDst: 0x1
+jump: 0x0
+branch: 0x0
+memRead: 0x0
+memToReg: 0x0
+aluOp0: 0x0
+aluOp1: 0x1
+memWrite: 0x0
+aluSrc: 0x0
+regWrite: 0x1
+	Register File
+readRegister1: 0x3
+readData1: 0xfffff9f4
+readRegister2: 0x0
+readData2: 0xfffff5b9
+regWrite: 0x1
+	ALUControl Values
+ALUOp: 0x2
+Opcode: 0x2a
+	MUX 5
+Input 1: 0xfffff5b9
+Input 2: 0xfffff5b9
+Control Value: 0x0
+Result: 0xfffff5b9
+	ALU 3
+Data 1: 0xfffff9f4
+Data 2: 0xfffff5b9
+Result: 0x       0
+Zero: 0x1
+	Data Memory
+Input address: 0x0
+	MUX 1
+Input 1: 0x0
+Input 2: 0x0
+Control Value: 0x1
+Result: 0x8
+	MUX 4
+Input 1: 0x0
+Input 2: 0x0
+Control Value: 0x0
+Result: 0x0
+	Register File
+writeRegister: 0x8
+writeData: 0x00000000
+regWrite: 0x1
+	ALU 1
+Data 1: 0x  400014
+Data 2: 0x       4
+Result: 0x  400018
+Zero: 0x0
+	Sign Extend
+Input: 0x6307882
+Result: 0x25231528
+	Sign Extend
+Input: 0x16426
+Result: 0x65704
+	ALU 2
+Data 1: 0x  400018
+Data 2: 0x   100a8
+Result: 0x  4100c0
+Zero: 0x0
+	MUX 2
+Input 1: 0x400018
+Input 2: 0x400018
+Control Value: 0x0
+Result: 0x400018
+	MUX 3
+Input 1: 0x400018
+Input 2: 0x400018
+Control Value: 0x0
+Result: 0x400018
+	Register File Content
+0:fffff5b9
+1:ffffe910
+2:000010e4
+3:fffff9f4
+4:00000fa0
+5:0000ff85
+6:0000043b
+7:00000001
+8:00000000
+9:00000000
+10:00000000
+11:00000000
+12:00000000
+13:00000000
+14:00000000
+15:00000000
+16:00000000
+17:00000000
+18:00000000
+19:00000000
+20:00000000
+21:00000000
+22:00000000
+23:00000000
+24:00000000
+25:00000000
+26:00000000
+27:00000000
+28:00000000
+29:00000000
+30:00000000
+31:00000000
+	Data Memory Content
+1000000c:c57b54ba
+10000010:e65e1e87
+10000014:1df23a4f
+10000018:b90037d6
+1000001c:63322818
+10000020:10916273
+10000024:9de6153f
+10000028:81fb7b82
+	Instruction Memory Content
+0x00411820
+0x20200ca9
+0x2044febc
+0x00603022
+0x0064382a
+0x0060402a
+0x00631820
+#######################################################
+Current instruction: add	$3, $3, $3 
+	Program Counter
+PC: 0x00400018
+	Sign Extend
+Input: 0x1820
+Result: 0x1820
+	Control Unit
+Input opcode: 0x0
+regDst: 0x1
+jump: 0x0
+branch: 0x0
+memRead: 0x0
+memToReg: 0x0
+aluOp0: 0x0
+aluOp1: 0x1
+memWrite: 0x0
+aluSrc: 0x0
+regWrite: 0x1
+	Register File
+readRegister1: 0x3
+readData1: 0xfffff9f4
+readRegister2: 0x3
+readData2: 0xfffff9f4
+regWrite: 0x1
+	ALUControl Values
+ALUOp: 0x2
+Opcode: 0x20
+	MUX 5
+Input 1: 0xfffff9f4
+Input 2: 0xfffff9f4
+Control Value: 0x0
+Result: 0xfffff9f4
+	ALU 3
+Data 1: 0xfffff9f4
+Data 2: 0xfffff9f4
+Result: 0xfffff3e8
+Zero: 0x0
+	Data Memory
+Input address: 0xfffff3e8
+	MUX 1
+Input 1: 0x3
+Input 2: 0x3
+Control Value: 0x1
+Result: 0x3
+	MUX 4
+Input 1: 0xfffff3e8
+Input 2: 0xfffff3e8
+Control Value: 0x0
+Result: 0xfffff3e8
+	Register File
+writeRegister: 0x3
+writeData: 0xfffff3e8
+regWrite: 0x1
+	ALU 1
+Data 1: 0x  400018
+Data 2: 0x       4
+Result: 0x  40001c
+Zero: 0x0
+	Sign Extend
+Input: 0x6494240
+Result: 0x25976960
+	Sign Extend
+Input: 0x6176
+Result: 0x24704
+	ALU 2
+Data 1: 0x  40001c
+Data 2: 0x    6080
+Result: 0x  40609c
+Zero: 0x0
+	MUX 2
+Input 1: 0x40001c
+Input 2: 0x40001c
+Control Value: 0x0
+Result: 0x40001c
+	MUX 3
+Input 1: 0x40001c
+Input 2: 0x40001c
+Control Value: 0x0
+Result: 0x40001c
+	Register File Content
+0:fffff5b9
+1:ffffe910
+2:000010e4
+3:fffff3e8
+4:00000fa0
+5:0000ff85
+6:0000043b
+7:00000001
+8:00000000
+9:00000000
+10:00000000
+11:00000000
+12:00000000
+13:00000000
+14:00000000
+15:00000000
+16:00000000
+17:00000000
+18:00000000
+19:00000000
+20:00000000
+21:00000000
+22:00000000
+23:00000000
+24:00000000
+25:00000000
+26:00000000
+27:00000000
+28:00000000
+29:00000000
+30:00000000
+31:00000000
+	Data Memory Content
+1000000c:c57b54ba
+10000010:e65e1e87
+10000014:1df23a4f
+10000018:b90037d6
+1000001c:63322818
+10000020:10916273
+10000024:9de6153f
+10000028:81fb7b82
+	Instruction Memory Content
+0x00411820
+0x20200ca9
+0x2044febc
+0x00603022
+0x0064382a
+0x0060402a
+0x00631820
+#######################################################
